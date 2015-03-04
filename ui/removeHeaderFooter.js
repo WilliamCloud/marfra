@@ -21,19 +21,6 @@ function hideElementByTagName(tagName) {
 }
 
 
-function hideTopArea() {
-    var element = document.getElementById("hd");
-    if (element) {
-        var prev;
-        while ((prev = element.previousSibling)) {
-            element = prev;
-            if (typeof (element.tagName) != "undefined") {
-                element.style.display = "none";
-            }
-        }
-    }
-}
-
 hideElementByTagName("header");
 hideElementByTagName("footer");
 hideElementById("demo");
