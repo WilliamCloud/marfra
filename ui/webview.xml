@@ -8,7 +8,7 @@
 -->
 <MOML version="1.1.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui_1.1.5.xsd">
 	<UILAYOUT portrait="320,460" landscape="320,460">
-		<LABEL id="navigationTitle" themeId="themeNavigationTitle" text="{userVariable.title}" onClick="">
+		<LABEL id="navigationTitle" themeId="themeNavigationTitle" text="{userVariable.title}">
 			<BUTTON themeId="themeMenuBtn" />
 		</LABEL>
 		<AGATEWEBVIEW id="web" layout="0,40,320,380" src="{userVariable.homePage}" controls="none">
