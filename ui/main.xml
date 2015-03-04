@@ -20,25 +20,28 @@
 			<WINDOW id="leftMenu" layout="0,0,140,460" align="linear:vertical" defaultImg="#516a94">
 				<WINDOW layout="140,40" defaultImg="#ffffff" align="linear:vCenter|subCenter" padding="10,0,0,0">
 					<IMAGE layout="30sr,30sr" defaultImg="/res/logo.png" />
-					<LABEL text="농림축산식품부" fontStyle="bold" fontSize="12" margin="3,0,0,0"/>
+					<LABEL text="Agate Cafe" fontStyle="bold" fontSize="12" margin="3,0,0,0"/>
 				</WINDOW>
 
-				<RADIO id="defaultMenu" themeId="menuItem" title="최신뉴스" homePage="http://m.mafra.go.kr/bbs/list.jsp?board_division=b_sec_1&amp;menu_gubun=menu_1" selected="true">
+				<RADIO id="defaultMenu" themeId="menuItem" title="최신글" homePage="http://m.cafe.naver.com/citrineframework" selected="true">
 					<LABEL themeId="menuItemIcon" defaultImg="/res/news.png" />
 					<LABEL themeId="menuItemLabel" text="{parent.title}" />
 				</RADIO>
 				<WINDOW themeId="menuSeparator" />
-				<RADIO themeId="menuItem" title="공지/공고" homePage="http://m.mafra.go.kr/bbs/list.jsp?board_division=m_sec_2&amp;menu_gubun=menu_2" >
+				<RADIO themeId="menuItem" title="공지사항"
+				homePage="http://m.cafe.naver.com/ArticleList.nhn?search.clubid=24809068&amp;search.menuid=1&amp;search.boardtype=L" >
 					<LABEL themeId="menuItemIcon" defaultImg="/res/notice.png" />
-					<LABEL themeId="menuItemLabel" text="{parent.title}" />
+					<LABEL themeId="menuItemLabel" text="{parent.title}" /> 
 				</RADIO>
 				<WINDOW themeId="menuSeparator" />
-				<RADIO themeId="menuItem" title="해명/설명" homePage="http://m.mafra.go.kr/bbs/list.jsp?board_division=e_sec_1&amp;menu_gubun=menu_8" >
+				<RADIO themeId="menuItem" title="개발팁"
+				homePage="http://m.cafe.naver.com/ArticleList.nhn?search.clubid=24809068&amp;search.menuid=58&amp;search.boardtype=L" >
 					<LABEL themeId="menuItemIcon" defaultImg="/res/explain.png" />
 					<LABEL themeId="menuItemLabel" text="{parent.title}" />
 				</RADIO>
 				<WINDOW themeId="menuSeparator" />
-				<RADIO themeId="menuItem" title="채용정보" homePage="http://m.mafra.go.kr/bbs/list.jsp?board_division=m_sec_3&amp;menu_gubun=menu_3" >
+				<RADIO themeId="menuItem" title="질문&amp;답변"
+				homePage="http://m.cafe.naver.com/ArticleList.nhn?search.clubid=24809068&amp;search.menuid=27&amp;search.boardtype=Q" >
 					<LABEL themeId="menuItemIcon" defaultImg="/res/incruit.png" />
 					<LABEL themeId="menuItemLabel" text="{parent.title}" />
 				</RADIO>
